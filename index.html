@@ -1,33 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ASC 2026 · 3LPo1G-05 · Assessing Vanadium Oxide Smart Insulation for Fusion-relevant HTS Magnets</title>
-  <meta http-equiv="refresh" content="0; url=poster.pdf">
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      background: #111;
-      color: #eee;
-      text-align: center;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ASC 2026 · 3LPo1G-05 · Vanadium Oxide Smart Insulation for Fusion-relevant HTS Magnets</title>
+<meta name="description" content="Poster 3LPo1G-05, Applied Superconductivity Conference 2026: assessing vanadium oxide smart insulation for quench protection of fusion-relevant HTS magnets.">
+<style>
+  :root {
+    --canvas: #F9F9FF;
+    --ink: #00102E;
+    --muted: #517984;
+    --rule-a: #34CEB7;
+    --rule-b: #04FFC3;
+    --link: #208172;
+    --card: #ffffff;
+    --edge: #CEDDE8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --canvas: #00102E;
+      --ink: #F9F9FF;
+      --muted: #9FB6BF;
+      --link: #04FFC3;
+      --card: #061B3D;
+      --edge: #17325C;
     }
-    p { font-size: 1.2rem; line-height: 1.6; }
-    a { color: #9cf; }
-    .small { font-size: 0.95rem; color: #aaa; }
-  </style>
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2rem 1.25rem 3rem;
+    background: var(--canvas);
+    color: var(--ink);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.55;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 40rem; margin: 0 auto; }
+  sup { font-size: 0.7em; line-height: 0; vertical-align: super; }
+  .tag {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.06em;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: uppercase;
+  }
+  h1 { font-size: 1.5rem; line-height: 1.25; margin: 0.35rem 0 0.5rem; font-weight: 650; }
+  .rule { height: 3px; width: 4.5rem; border-radius: 2px; background: linear-gradient(90deg, var(--rule-a), var(--rule-b)); margin: 1.1rem 0; }
+  .authors { font-size: 0.95rem; margin: 0 0 0.25rem; }
+  .affil { font-size: 0.82rem; color: var(--muted); margin: 0; }
+  figure { margin: 1.6rem 0; }
+  figure img {
+    width: 100%; height: auto; display: block;
+    border: 1px solid var(--edge); border-radius: 6px;
+    background: #fff;
+  }
+  figcaption { font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem; }
+  .btn {
+    display: block; text-align: center; text-decoration: none;
+    background: var(--ink); color: var(--canvas);
+    padding: 0.95rem 1.25rem; border-radius: 8px;
+    font-weight: 600; font-size: 1.02rem;
+    border: 2px solid var(--ink);
+  }
+  @media (prefers-color-scheme: dark) {
+    .btn { background: var(--rule-b); color: #00102E; border-color: var(--rule-b); }
+  }
+  .btn .sub { display: block; font-weight: 400; font-size: 0.82rem; opacity: 0.75; }
+  .alt { text-align: center; font-size: 0.85rem; color: var(--muted); margin: 0.8rem 0 0; }
+  a { color: var(--link); }
+  section {
+    margin-top: 2.2rem; padding: 1.1rem 1.25rem;
+    background: var(--card); border: 1px solid var(--edge); border-radius: 8px;
+  }
+  h2 { font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.6rem; font-weight: 600; }
+  .contact { margin: 0; font-size: 1rem; }
+  .contact a { display: inline-block; padding: 0.15rem 0; word-break: break-word; }
+  .contact .who { font-weight: 600; }
+  footer { margin-top: 2.2rem; font-size: 0.78rem; color: var(--muted); }
+</style>
 </head>
 <body>
-  <p>
-    Loading the poster in print quality (21&nbsp;MB)…
-    <a href="poster.pdf">click here if nothing happens</a>.<br>
-    <span class="small">On a slow connection, take the
-    <a href="poster-web.pdf">lighter 2&nbsp;MB version</a> instead.</span>
-  </p>
+<main>
+  <p class="tag">ASC 2026 · Poster 3LPo1G-05</p>
+  <h1>Assessing Vanadium Oxide Smart Insulation for Fusion-relevant HTS Magnets</h1>
+  <div class="rule"></div>
+  <p class="authors">Henri Höchter<sup>1,2,3</sup> · Nicolò Riva<sup>1</sup> · Theodore Golfinopoulos<sup>2</sup> · Philip Michael<sup>2</sup> · Tim Hofmann<sup>3</sup></p>
+  <p class="affil"><sup>1</sup> Proxima Fusion GmbH, Munich, Germany · <sup>2</sup> MIT Plasma Science and Fusion Center, Cambridge MA, USA · <sup>3</sup> Technical University of Munich, Germany</p>
+
+  <figure>
+    <a href="poster.pdf"><img src="poster-thumb.jpg" alt="Reduced-size view of the poster, four panels across 1828 by 914 millimetres."></a>
+    <figcaption>1828 × 914 mm, one page. Tap the poster or the button below for the full-resolution file.</figcaption>
+  </figure>
+
+  <a class="btn" href="poster.pdf">Download the poster<span class="sub">PDF · 21 MB · print quality</span></a>
+  <p class="alt">On a slow connection, take the <a href="poster-web.pdf">lighter 2 MB version</a> instead.</p>
+
+  <section>
+    <h2>Contact</h2>
+    <p class="contact">
+      <span class="who">Henri Höchter</span><br>
+      <a href="mailto:hhoechter@proximafusion.com?subject=ASC%202026%20poster%203LPo1G-05">hhoechter@proximafusion.com</a>
+    </p>
+  </section>
+
+  <footer>
+    Funded by Proxima Fusion GmbH; carried out in part through the use of MIT.nano's facilities.
+    Concept per Proxima Fusion GmbH, P175858WO, 17 Nov 2025.
+  </footer>
+</main>
 </body>
 </html>
